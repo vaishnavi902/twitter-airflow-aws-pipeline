@@ -24,6 +24,11 @@ An automated, zero-cost (₹0) data pipeline built to simulate real-world data e
 3. **Load:** Automatically pushes and stores the processed dataset as a `.csv` file into an AWS S3 bucket.
 4. **Orchestrate:** Scheduled and managed seamlessly via Apache Airflow DAGs (`twitter_dag.py`).
 
+
+## ⚙️ data Pipeline architecture
+[ Raw Data Source ]  --->  [ AWS EC2 / Python ]  --->  [ Apache Airflow ]  --->  [ AWS S3 Data Lake ]
+(e.g. Tweets / APIs)       (Extract & Clean Data)     (Automate & Schedule)     (Central Clean Storage)
+
 ---
 
 ## 📂 Project Structure
