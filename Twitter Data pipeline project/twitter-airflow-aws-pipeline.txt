@@ -1,0 +1,20 @@
+Password for user 'admin': ZwTyESZAxRaFBuV7
+
+
+******COMPLETE UBANTU COMMANDS*******
+
+# 1. SSH into your EC2 instance (replace with your active AWS Public IP)
+ssh -i "airflow-ec2-key.pem" ubuntu@<your-current-ec2-ip>
+
+# 2. Activate your Python virtual environment
+source venv/bin/activate
+
+3.
+nohup airflow standalone > airflow.log 2>&1 &
+
+# 4. Ensure boto3 is installed
+pip install boto3
+
+# 5. Run your ETL script directly to push the CSV to AWS S3 instantly
+python3 ~/airflow/dags/twitter_etl.py
+
