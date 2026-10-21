@@ -32,7 +32,6 @@ An automated, zero-cost (₹0) data pipeline built to simulate real-world data e
 ---
 
 ## 📂 Project Structure
-```text
 ├── airflow/
 │   ├── dags/
 │   │   ├── twitter_dag.py     # Airflow DAG orchestration script
