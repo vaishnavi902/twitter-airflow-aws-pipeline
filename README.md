@@ -42,3 +42,7 @@ An automated, zero-cost (₹0) data pipeline built to simulate real-world data e
 Successfully deployed and managed Apache Airflow on a remote Ubuntu cloud server via SSH.
 Resolved cloud memory constraints on micro-instances by implementing custom Linux swap space.
 Implemented IAM roles and policies to securely authorize EC2-to-S3 cloud data transfers.
+
+
+
+****FOR MORE INFORMATION CHECK THE YT VIDEO :- https://youtu.be/q8q3OFFfY6c?si=x5F7EopNXgJUue4T
