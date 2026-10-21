@@ -30,7 +30,6 @@ An automated, zero-cost (₹0) data pipeline built to simulate real-world data e
 (e.g. Tweets / APIs)       (Extract & Clean Data)     (Automate & Schedule)     (Central Clean Storage)
 
 ---
-
 ## 📂 Project Structure
 ├── airflow/
 │   ├── dags/
